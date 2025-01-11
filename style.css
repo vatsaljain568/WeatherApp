@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    border: 2px solid black;
+    width: 23vw;
+    border-radius: 16px;
+}
+
+/* Search box */
+.search
+{
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search .btn
+{
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    background:transparent;
+    border-radius: 50%;
+}
+
+.search_box{
+    padding: 6px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+.hide
+{
+    display: none;
+}
+
+/* Main */
+
+.main
+{
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin: 8px;
+}
+
+.error
+{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;   
+    text-align: center;
+    display: none;
+}
+
+.temp
+{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+.city
+{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 33px;
+}
+
+
+/* Extra Info */
+
+.extra
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin: 12px;
+    padding: 10px;
+}
+
+.humidity
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    /* border: 2px solid blue; */
+}
+.humidity img
+{
+    width: 40px;
+    height: 36px;
+
+}
+.humidity p
+{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+}
+
+.Wind_speed
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    /* border: 2px solid yellow; */
+}
+.Wind_speed p
+{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+}
+.Wind_speed img
+{
+    width: 40px;
+    height: 36px;
+}

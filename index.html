@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a Weather App">
+    <title>WeatherApp</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="Search" class="search_box" id="dundhlo">
+                <button class="btn"><ion-icon name="search-sharp"></ion-icon></button>
+            </div>
+            <div class="error">
+                Invalid City Name
+            </div>
+            <div class="hide">
+                <div class="main">
+                    <img src="images/clear.png" alt="Temperature" class="photo">
+                    <p class="temp">23°C</p>
+                    <p class="city">City Name</p>
+                </div>
+                <div class="extra">
+                    <!-- Humidity -->
+                    <div class="humidity">
+                        <img src="images/humidity.png" alt="humidity">
+                        <p class="humidity_text">48%</p>
+                    </div>
+                    <!-- Wind Speed -->
+                    <div class="Wind_speed">
+                        <img src="images/wind.png" alt="Wind">
+                        <p class="Wind_speed_text">48 Km/h</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
